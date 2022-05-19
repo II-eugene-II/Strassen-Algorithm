@@ -58,7 +58,7 @@ int main()
 
 	for (i = 0; K < 6003785411879964839; i++)
 	{
-		sprintf(filename, "strassenNum20milSet%d", i + 1);
+		sprintf(filename, "strassenNum20milSet%05d", i + 1);
 		FILE *fp = fopen(filename, "w");
 
 		int strassenTime = 20000000;
